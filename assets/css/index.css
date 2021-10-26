@@ -1,0 +1,50 @@
+.layui-nav-item a .iconfont {
+    margin-right: 5px;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+.layui-nav-child a{
+    margin-left: 15px;
+}
+.layui-nav-child i {
+    margin-right: 5px;
+
+}
+.userinfo{
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+.layui-side-scroll .userinfo{
+border-bottom: 1px solid #23262e;
+height: 70px;
+line-height: 70px;
+}
+
+.layui-nav-img{
+    position: relative;
+    top: -4px;
+    display: none;
+}
+.layui-side-scroll .layui-nav-img{
+    top: -9px;
+
+}
+.text-avatar{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 20px;
+    color: #Fff;
+    background: #009688;
+    vertical-align: middle;
+}
+.layui-footer{
+    text-align: center;
+}
