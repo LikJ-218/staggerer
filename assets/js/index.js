@@ -8,19 +8,18 @@ $(function(){
         $.ajax({
             type:'get',
             url:'/my/userinfo',
-            headers:{
-                Authorization:localStorage.getItem('token')
-            },
             success:function(res){
                 if(res.code != 0){
                     return layer.msg('获取用户信息失败')
                 }
                 // 成功之后拿到信息渲染页面
                 renderAvatar(res.data)
-            }
+            },
+         
         })
     }
 
+    // 渲染用户头像
     function renderAvatar(user){
         console.log(user);
         // 获取用户名称
@@ -36,4 +35,15 @@ $(function(){
             $('.text-avatar').html(name[0].toUpperCase())
         }
     }
+    $('.logoutBtn').click(function(){
+        layer.confirm('确认退出登录？', {icon:3,title:'提示'}, function(index, layero){
+            //确定的回调
+            // 清空本地储存的token
+            localStorage.removeItem('token');
+            // 跳转到登录页面
+            location.href = 'login.html'
+            // 关闭弹出询问框
+            layer.close(index);
+          });
+    })
 })
