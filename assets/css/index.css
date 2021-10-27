@@ -48,3 +48,6 @@ line-height: 70px;
 .layui-footer{
     text-align: center;
 }
+iframe{
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,46 @@
+body{
+    padding: 15px;
+}
+.layui-card-body{
+    width: 500px;
+}
+.cropper-box{
+    width: 350px;
+    height: 350px;
+    background: gray;
+    overflow: hidden;
+
+}
+.row1{
+    display: flex;
+    margin-bottom: 50px;
+}
+.w100{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    overflow: hidden;
+}
+.w50{
+    width: 50px;
+    height: 50px;
+    background: gray;
+    overflow: hidden;
+}
+.size{
+    text-align: center;
+    font-size: 14px;
+}
+.img-preview{
+    border-radius: 50%;
+}
+.preview-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+#file{
+    display: none;
+}
+

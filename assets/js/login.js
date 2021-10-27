@@ -28,6 +28,8 @@ $(function () {
 
 
     })
+    // 导入 layer 提示框
+    var layer = layui.layer;
 
     // 监听注册表单的 提交事件
     $('#form_reg').on('submit', function (e) {
@@ -61,6 +63,7 @@ $(function () {
             success:function(res){
                 console.log(res);
                 if (res.code != 0) {
+                    
                     return layer.msg('登录失败');
                 }
                 layer.msg('登录成功');
@@ -72,5 +75,7 @@ $(function () {
             }
         })
     })
+
+    
 
 })
