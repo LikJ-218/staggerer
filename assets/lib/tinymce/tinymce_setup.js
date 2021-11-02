@@ -9,6 +9,7 @@ function initEditor() {
     //高度为400
     height: 300,
     statusbar: false,
+    menubar:false,
     width: '100%',
     //工具栏上面的补丁按钮
     plugins: [

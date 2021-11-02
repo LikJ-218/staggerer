@@ -1,0 +1,16 @@
+body{
+    padding: 15px;
+}
+.layui-input-block .cover-img{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.layui-input-block .cover-img, .layui-input-block .cover-img img{
+    vertical-align: top;
+}
+
+.cover-img img{
+    width: 100%;
+}

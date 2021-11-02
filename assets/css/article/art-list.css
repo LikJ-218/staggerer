@@ -1,0 +1,32 @@
+body{
+    padding: 15px;
+}
+td a{
+    color: blue;
+}
+.datail-box{
+    padding: 20px;
+}
+.datail-box h2{
+    text-align: center;
+}
+.datail-box ul{
+    margin: 20px 0;
+    overflow: hidden;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+
+}
+.datail-box ul li{
+    float: left;
+    margin-right: 20px;
+    color: gray;
+    font-size: 14px;
+
+}
+
+.datail-box img{
+    width: 480px;
+    margin: 20px 0;
+}
+
